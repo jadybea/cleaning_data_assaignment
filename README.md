@@ -1,7 +1,7 @@
 # cleaning_data_assaignment
 ## Course project of the Getting and Cleaning Data Course of the Johns Hopkins Bloomberg School of Public Health on Coursera
 
-This assaignment requires the cleaning of the dataset found at 
+This assaignment requires the cleaning of the data set found at 
 * "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
 
 The following information about the dataset was provided by the authors: 
@@ -24,9 +24,9 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 I am submitting a script called "run_analysis.R" that I used to prepare the tidy dataset. The script works only if the dataset files are downloaded, unpacked and all found in the working directory of R. 
 
-I am also submitting the codebook accompanying the resulted tidy dataset that describes the data, the variables and the transformations encoded by the "run_analysis.R" script. 
+I am also submitting the codebook accompanying the resulted tidy data set that describes the data, the variables and the transformations encoded by the "run_analysis.R" script. 
 
-Finally, I am submitting the tidy dataset to the course submission page. To visualise the dataset, please use the following code in R:
+Finally, I am submitting the tidy data set to the course submission page. To visualise the data set, please use the following code in R:
 
 > fileURL <- "http://s3.amazonaws.com/coursera-uploads/user-22229759e987c14966b6c15a/973501/asst-3/265643d0021311e597bb1f7244733d02.txt"
 
@@ -34,14 +34,16 @@ Finally, I am submitting the tidy dataset to the course submission page. To visu
 
 > data <- read.table("tidydata.txt", header = TRUE)
 
-The tidy dataset fulfills all three criteria of tidy data:
+The tidy dataset fulfills all the three criteria of tidy data:
 * Each variable forms a column. 
 * Each observation forms a row. 
 * The table stores the data about one kind of observation (i.e.all variables are normalized values of the accelerometer and gyroscope measurements.)
 
 The number of observations equals to 180 (180 rows) as the observation is determined as an activity for a specific person = combination of the first two colums named "subject" and "activity". As there were 30 participants and 6 activities, the combination of the two results in 30 x 6 = 180, as each activity was recorded for each person. 
 
-For each observation, several parameters were recorded by the accelerometer and gyroscope. This is the reason why we have several (66) variables (columns 3-68) for each observation (row). Although the variables could be separated and listed as one observation-one variable, resulting in 66 x 180 = 11880 rows, I decided to keep them together, because the variables are interconnected (for example vectorial parts of the same movement), and it is easier for the readers to understand the structure of the data while still fulfilling the criteria of a tidy dataset and allowing easy data analysis in the next step. 
+For each observation, several parameters were recorded by the accelerometer and gyroscope. This is the reason why we have several (66) variables (columns 3-68) for each observation (row). Although the variables could be separated and listed as one observation-one variable, resulting in 66 x 180 = 11880 rows, I decided to keep them together. The reasons why I took this decision are 
+* variables are interconnected (for example vectorial parts of the same movement), 
+* it is easier for the readers to understand the structure of the data while still fulfilling the criteria of a tidy dataset and allowing easy data analysis in the next step. 
 
 For ideas to clean the dataset, I used the following references beside the video lectures found on the course page:
 
