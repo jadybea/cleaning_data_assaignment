@@ -45,7 +45,7 @@ For each observation, several parameters were recorded by the accelerometer and 
 * variables are interconnected (for example vectorial parts of the same movement), 
 * it is easier for the readers to understand the structure of the data while still fulfilling the criteria of a tidy dataset and allowing easy data analysis in the next step. 
 
-For ideas to clean the dataset, I used the following references beside the video lectures found on the course page:
+For ideas about cleaning this data set, I used the following references beside the video lectures found on the course page:
 
 * Hadley Wickham. Tidy data. The Journal of Statistical Software, vol. 59, 2014.
 * https://class.coursera.org/getdata-014/forum/thread?thread_id=31
