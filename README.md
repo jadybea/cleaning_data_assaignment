@@ -22,7 +22,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 #PROCEDURE
 
-I am submitting a script called "run_analysis.R" that I used to prepare the dataset. The script works only if the dataset files are downloaded, unpacked and all found in the working directory of R. 
+I am submitting a script called "run_analysis.R" that I used to prepare the tidy dataset. The script works only if the dataset files are downloaded, unpacked and all found in the working directory of R. 
 
 I am also submitting the codebook accompanying the resulted tidy dataset that describes the data, the variables and the transformations encoded by the "run_analysis.R" script. 
 
@@ -35,7 +35,7 @@ The tidy dataset fulfills all three criteria of tidy data:
 
 The number of observations equals to 180 (180 rows) as the observation is determined as an activity for a specific person = combination of the first two colums named "subject" and "activity". As there were 30 participants and 6 activities, the combination of the two results in 30 x 6 = 180, as each activity was recorded for each person. 
 
-For each observation, several parameters were recorded by the accelerometer and gyroscope. This is the reason why we have several (66) variables (columns 3-68) for each observation (row). Although the variables could be separated and listed as one observation-one variable, resulting in 66 x 180 = 11880 rows, I decided to keep them together, because the variables are interconnected (for example vectorial parts of the same movement), and 
+For each observation, several parameters were recorded by the accelerometer and gyroscope. This is the reason why we have several (66) variables (columns 3-68) for each observation (row). Although the variables could be separated and listed as one observation-one variable, resulting in 66 x 180 = 11880 rows, I decided to keep them together, because the variables are interconnected (for example vectorial parts of the same movement), and it is easier for the readers to understand the structure of the data while still fulfilling the criteria of a tidy dataset and allowing easy data analysis in the next step. 
 
 For ideas to clean the dataset, I used the following references beside the video lectures found on the course page:
 
