@@ -1,7 +1,8 @@
 # cleaning_data_assaignment
 ## Course project of the Getting and Cleaning Data Course of the Johns Hopkins Bloomberg School of Public Health on Coursera
 
-This assaignment requires the cleaning of the dataset found at *"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
+This assaignment requires the cleaning of the dataset found at 
+* "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip".
 
 The following information about the dataset was provided by the authors: 
 "Human Activity Recognition Using Smartphones Dataset
@@ -23,7 +24,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 For ideas to clean the dataset, I used the following references beside the video lectures found on the course page:
 
-*Hadley Wickham. Tidy data. The Journal of Statistical Software, vol. 59, 2014.
-*https://class.coursera.org/getdata-014/forum/thread?thread_id=31
+* Hadley Wickham. Tidy data. The Journal of Statistical Software, vol. 59, 2014.
+* https://class.coursera.org/getdata-014/forum/thread?thread_id=31
 
 
