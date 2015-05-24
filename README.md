@@ -25,6 +25,15 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 I am submitting a script called "run_analysis.R" that I used to prepare the tidy dataset. The script works only if the dataset files are downloaded, unpacked and all found in the working directory of R. 
 
+As it was required, the script 
+
+*Merges the training and the test sets to create one data set.
+*Extracts only the measurements on the mean and standard deviation for each measurement. 
+*Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names. 
+* creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
 I am also submitting the codebook (Codebook.md) accompanying the resulted tidy data set that describes the data, the variables and the transformations encoded by the "run_analysis.R" script. 
 
 Finally, I am submitting the tidy data set to the course submission page. To visualise the data set, please use the following code in R:
