@@ -31,23 +31,23 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag""
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag"
 
 ## INFORMATION ON THE TIDY DATA SET:
 
@@ -56,12 +56,12 @@ fBodyGyroJerkMag""
 "subject" : id of the person peforming the activities. Range: 1:30.
 "activity" : name of the activity the measuresments were performed for. There are 6 different activities such as 
 
-WALKING, 
-WALKING_UPSTAIRS, 
-WALKING_DOWNSTAIRS, 
-SITTING, 
-STANDING, 
-LAYING.
+* WALKING, 
+* WALKING_UPSTAIRS, 
+* WALKING_DOWNSTAIRS, 
+* SITTING, 
+* STANDING, 
+* LAYING.
 
 The "subject" and "activity" together determines the "observation", i.e. an activity performed by a person. There are 30 x 6 = 180 different observations (rows) in the data set.
 
