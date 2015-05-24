@@ -25,7 +25,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 I am submitting a script called "run_analysis.R" that I used to prepare the tidy dataset. The script works only if the dataset files are downloaded, unpacked and all found in the working directory of R. 
 
-I am also submitting the codebook accompanying the resulted tidy data set that describes the data, the variables and the transformations encoded by the "run_analysis.R" script. 
+I am also submitting the codebook (Codebook.md) accompanying the resulted tidy data set that describes the data, the variables and the transformations encoded by the "run_analysis.R" script. 
 
 Finally, I am submitting the tidy data set to the course submission page. To visualise the data set, please use the following code in R:
 
