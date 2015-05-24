@@ -28,9 +28,11 @@ I am also submitting the codebook accompanying the resulted tidy dataset that de
 
 Finally, I am submitting the tidy dataset to the course submission page. To visualise the dataset, please use the following code in R:
 
-fileURL <- "http://s3.amazonaws.com/coursera-uploads/user-22229759e987c14966b6c15a/973501/asst-3/265643d0021311e597bb1f7244733d02.txt"
-download.file(fileURL, destfile="tidydata.txt", method = "curl")
-data <- read.table("tidydata.txt", header = TRUE)
+> fileURL <- "http://s3.amazonaws.com/coursera-uploads/user-22229759e987c14966b6c15a/973501/asst-3/265643d0021311e597bb1f7244733d02.txt"
+
+> download.file(fileURL, destfile="tidydata.txt", method = "curl")
+
+> data <- read.table("tidydata.txt", header = TRUE)
 
 The tidy dataset fulfills all three criteria of tidy data:
 * Each variable forms a column. 
